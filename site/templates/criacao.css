@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(88, 207, 250) !important;
+}
+
+h1,h2{
+    font-family: cursive !important;
+    margin: 20px !important;
+}
+
+h2{
+    font-size: 45px !important;
+    color: white !important;
+}
+
+h1{
+    font-size: 60px !important;
+    color: black !important;
+}
+
+input[type="radio"] {
+    visibility: hidden;
+}
+
+input[type="radio"]:checked+label {
+    border-color: black;
+}
+
+label {
+    border: 2px solid #ccf;
+    border-radius: 40px;
+    background-color: white;
+    padding: 20px;
+}
+
+img {
+    width: 150px;
+}
+
+input[type="submit"]{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 25px;
+    color: black;
+    margin: 30px !important;
+    transition: 1s;
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.15);
+}
+
+.col, h1 , h2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+

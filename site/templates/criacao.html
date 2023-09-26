@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de criação</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/criacao.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <h1>Monte seu avatar</h1>
+            </div>
+        </div>
+
+        <form action="/criar" method="POST">
+
+            <div class="row">
+                <div class="col"><h2>Cor da pele</h2></div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <input type="radio" name="cor-pele" id="pele-branca" value="branco">
+                    <label for="pele-branca"><img src="../static/img/icones/pelebranca.png"></label>
+                </div>
+                <div class="col">
+                    <input type="radio" name="cor-pele" id="pele-parda" value="pardo">
+                    <label for="pele-parda"><img src="../static/img/icones/peleparda.png"></label>
+                </div>
+                <div class="col">
+                    <input type="radio" name="cor-pele" id="pele-negra" value="negro">
+                    <label for="pele-negra"><img src="../static/img/icones/pelenegra.png"></label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col"><h2>Formato do cabelo</h2></div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <input type="radio" name="formato-cabelo" id="cabelo-longo" value="longo">
+                    <label for="cabelo-longo"><img src="https://img2.gratispng.com/20180302/piq/kisspng-hairstyle-vector-ms-hair-5a99e74da257b9.907156401520035661665.jpg"></label>
+                </div>
+                <div class="col">
+                    <input type="radio" name="formato-cabelo" id="cabelo-medio" value="medio">
+                    <label for="cabelo-medio"><img src="https://img1.gratispng.com/20180227/jzq/kisspng-hair-capelli-gratis-stylish-short-hair-matting-material-free-5a95ff8c325aa0.5823530115197797242063.jpg"></label>
+                </div>
+                <div class="col">
+                    <input type="radio" name="formato-cabelo" id="cabelo-curto" value="curto">
+                    <label for="cabelo-curto"><img src="https://cdn-icons-png.flaticon.com/512/30/30455.png"></label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col"><h2>Cor do cabelo</h2></div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <input type="radio" name="cor-cabelo" id="cabelo-preto" value="preto">
+                    <label for="cabelo-preto"><img src="../static/img/icones/cabelopreto.png"></label>
+                </div>
+                <div class="col">
+                    <input type="radio" name="cor-cabelo" id="cabelo-castanho" value="castanho">
+                    <label for="cabelo-castanho"><img src="../static/img/icones/cabelocastanho.png"></label>
+                </div>
+                <div class="col">
+                    <input type="radio" name="cor-cabelo" id="cabelo-loiro" value="loiro">
+                    <label for="cabelo-loiro"><img src="../static/img/icones/cabeloloiro.png"></label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <input type="submit" value="Confirmar">
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

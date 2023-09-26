@@ -1,0 +1,35 @@
+body{
+    background-color: red;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    font-family: inherit;   
+    color: red;
+}
+
+.principal{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo{
+    font-size: 80px;
+}
+
+.botao{
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    transition: 1s;
+    background-color: black;
+}
+
+.botao:hover{
+    transform: scale(1.15);
+}
