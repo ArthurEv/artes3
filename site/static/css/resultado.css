@@ -1,16 +1,9 @@
-body{
-    background-color: red;
-    font-family: inherit !important;
-    color: black !important;
-}
-
 .col{
     text-align: center;
 }
 
-a{
+span{
     text-decoration: none;
-    font-family: inherit;   
     color: red;
 }
 
