@@ -1,26 +1,48 @@
-.col{
-    text-align: center;
+body{
+    background-color: black;
+    color: white;
 }
 
 span{
     text-decoration: none;
-    color: red;
+    color: black;
 }
 
 button{
     font-size: 20px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 20px;
     border: none;
     transition: 1s;
-    background-color: black;
+    background-color: white;
+}
+
+button:hover{
+    transform: scale(1.1);
 }
 
 .container{
     padding: 40px 0;
 }
 
-img{
+.imagem{
     width: 50%;
-    margin-bottom: 30px;
+    margin: 0 auto 40px;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.centro{
+    text-align: center;
+}
+
+.dois{
+    display: flex;
+}
+
+h1{
+    margin-bottom: 20px;
 }

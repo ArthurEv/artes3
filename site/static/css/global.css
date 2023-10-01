@@ -5,3 +5,8 @@ body {
   color: black;
   background-color: red;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+

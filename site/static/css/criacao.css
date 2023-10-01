@@ -1,3 +1,7 @@
+body{
+    background-color: lightcoral;
+}
+
 h1,h2{
     margin: 20px !important;
 }
@@ -16,6 +20,7 @@ input[type="radio"] {
 
 input[type="radio"]:checked+label {
     border-color: black;
+    border-width: 5px;
 }
 
 label {
@@ -38,11 +43,6 @@ input[type="submit"]{
     font-size: 25px;
     color: black;
     margin: 30px !important;
-    transition: 1s;
-}
-
-input[type="submit"]:hover{
-    transform: scale(1.15);
 }
 
 .col, h1 , h2{
