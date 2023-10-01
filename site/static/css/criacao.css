@@ -27,6 +27,7 @@ label {
 
 img {
     width: 150px;
+    border-radius: 100px;
 }
 
 input[type="submit"]{
@@ -49,4 +50,9 @@ input[type="submit"]:hover{
     align-items: center;
     text-align: center;
     flex-direction: column;
+}
+
+.erro{
+    font-size: 30px;
+    color: yellow;
 }
